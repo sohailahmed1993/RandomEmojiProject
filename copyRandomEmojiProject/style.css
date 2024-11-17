@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: salmon;
+    font-family: cursive;
+}
+
+.section{
+    text-align: center;
+}
+
+.btn{
+    padding: 20px 40px;
+    font-size: 48px;
+    border: none;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+    filter: grayscale();
+    transition: fliter .2s ease-in-out ;
+}
+
+.btn:hover{
+    filter: grayscale(0);
+}
+
+.emoji-name{
+    font-weight: bold;
+    color: darkblue;
+}
